@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #3D997050;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+header{
+  margin-bottom: 0px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+}
+
+main{
+  margin-top: 0px;
+  border-top: 1px solid black;
+}
+
+.container{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 960px;
+  height: 420px;
+  position: relative;
+  top: 15px;
+  left: 200px;
+  /* mi serve per orientarmi visivamente */
+  /* background-color: white; */
+}
+.prodotto{
+  width: 320px;
+  height: 210px;
+  position: absolute;
+  /* mi serve per orientarmi visivamente */
+  /* background-color: black;
+  border: 1px solid white; */
+}
+
+.primo{
+position: absolute;
+/* alternativa */
+/* background-image: url("../img/radio1.png"); */
+/* background-size: 200px; */
+/* background-repeat: no-repeat; */
+}
+
+.secondo{
+position: absolute;
+left: 320px;
+/* alternativa */
+/* background-image: url("../img/radio2.png"); */
+/* background-size: 200px; */
+/* background-repeat: no-repeat; */
+}
+
+.terzo{
+position: absolute;
+left: 640px;
+/* alternativa */
+/* background-image: url("../img/radio3.png"); */
+/* background-size: 200px; */
+/* background-repeat: no-repeat; */
+}
+
+.quarto{
+position: absolute;
+top: 210px;
+/* alternativa */
+/* background-image: url("../img/radio4.png"); */
+/* background-size: 200px; */
+/* background-repeat: no-repeat; */
+}
+
+.quinto{
+position: absolute;
+left: 320px;
+top: 210px;
+/* alternativa */
+/* background-image: url("../img/radio5.png"); */
+/* background-size: 200px; */
+/* background-repeat: no-repeat; */
+}
+
+.sesto{
+position: absolute;
+left: 640px;
+top: 210px;
+/* alternativa */
+/* background-image: url("../img/radio6.png"); */
+/* background-size: 200px; */
+/* background-repeat: no-repeat; */
+}
+
+img{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 150px;
+}
+
+p{
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  z-index: 9999;
+  font-size: 25px;
+}
+
+p:hover{
+  color: red;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.sconto{
+  width: 30px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  left: 90%;
+  bottom: 90%;
+  font-size: 15px;
+}
+
+.primos{
+  background-color: #7FDBFF90;
+  border-radius: 9px;
+}
+
+.secondos{
+  background-color: #7FDBFF90;
+  border-radius: 9px;
+}
+
+.terzos{
+  background-color: #FFDC0090;
+  border-radius: 9px;
+}
+
+.quartos{
+  background-color: #7FDBFF90;
+  border-radius: 9px;
+}
+
+.quintos{
+  background-color: #FFDC0090;
+  border-radius: 9px;
+}
+
+.sestos{
+  background-color: #7FDBFF90;
+  border-radius: 9px;
+}
+
+footer{
+  margin-top: 30px;
+  border-top: 1px solid black;
+  text-align: center;
+}
